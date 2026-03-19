@@ -35,28 +35,28 @@
 <div class="card card-border bg-base-100 w-96 p-3">
   <div class="">
     <p class="font-normal text-sm">Total</p>
-    <p class="font-semibold text-2xl">8</p>
+    <p id="dash-total-count" class="font-semibold text-2xl">8</p>
   </div>
 </div>
 
 <div class="card card-border bg-base-100 w-96 p-3">
   <div class="">
     <p class="font-normal text-sm">Interview</p>
-    <p class="font-semibold text-2xl text-green-500">0</p> 
+    <p id="dash-interview-count" class="font-semibold text-2xl text-green-500">0</p> 
   </div>
 </div>
 
 <div class="card card-border bg-base-100 w-96 p-3">
   <div class="">
     <p class="font-normal text-sm">Rejected</p>
-    <p class="font-semibold text-2xl text-red-600">0</p>
+    <p id="dash-rejected-count" class="font-semibold text-2xl text-red-600">0</p>
   </div>
 </div>
     </div>
 
     </header>
 
-    <div class="text-[#E6E7E9]"><hr></div>
+    <div class="text-[#E6E7E9] mb-5"><hr></div>
     <main>
         <div>
             <div class="flex justify-between items-center">
@@ -69,6 +69,26 @@
                 <button class="btn btn-soft btn-primary text-[#64748B]">Rejected</button>
             </div>
         </div>
+
+
+        <section class="p-2 rounded-md hidden">
+    <div class="card bg-base-100 p-20 shadow-sm">
+  <figure class="mb-4">
+    <img
+      src="./jobs.png"
+      alt=""
+      class="rounded-xl" />
+  </figure>
+  <div class="items-center text-center space-y-1">
+    <h2 class="text-[#002C5C] font-bold text-xl">No jobs available</h2>
+    <p class="text-[#64748B]">Check back soon for new job opportunities</p>
+  </div>
+</div>
+   </section>
+
+
+
+
 
         <section class="rounded-md space-y-5">
     <div class="bg-base-100 p-2 rounded-md">
@@ -283,6 +303,12 @@ Full-time
         </section>
 
     </main>
+
+
+
+
+
+    <script src="./Script/script.js"></script>
     
 </body>
 </html>
